@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- link para el icono del menu -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <!-- or -->
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- Caja principal -->
+    <div class="container">
+        <!-- header: contendra el titulo de la pagina web(e incluso, puede tener un logo y un menu de 
+        navegacion representado en una etiqueta nav) -->
+        <header class="rojo">
+            <h1>Perros DAW</h1>
+            <nav>
+                <div class="icon">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="menu_item">Inicio</div>
+                <div class="menu_item">Proyectos</div>
+                <div class="menu_item">Contacto</div>
+            </nav>
+        </header>
+        <!-- main: caja que contendra lo mas importante, es decir, las img y los textos explicativos -->
+        <main>
+            <section class="main_text">
+                <div>
+                    <h1 class="rojo">Proyecto Ejemplo Web Responsive para 1ºDAW</h1>
+                    <h3>Diseño Responsive</h3>
+                </div>
+                <div>
+                    <p>Pagina web responsive creada durante nuestras clases de los lunes en Lenguaje de Marcas.</p>
+                    <p>Establecemos dos puntos de breakpoints, uno a 576px y otro a 992px en los que se producen cambios de layout.</p>
+                    <p>El proceso de desarrollo se ha llevado a cabo empezando el diseño para pantallas pequeñas hasta mas grandes</p>
+                </div>
+            </section>
+            <section class="images">
+                <img src="img/1.jpg" alt="">
+                <img src="img/2.jpg" alt="">
+                <img class="hidden" src="img/3.jpg" alt="">
+                <img src="img/4.jpg" alt="">
+                <img src="img/5.jpg" alt="">
+                <img src="img/6.jpg" alt="">
+                <img src="img/7.jpg" alt="">
+                <img src="img/8.jpg" alt="">
+                <img src="img/9.jpg" alt="">
+            </section>
+        </main>
+        <section class="novedades">
+            <h2 class="rojo">Novedades</h2>
+            <article>
+                <h3>27 de Febrero 2023</h3>
+                <h4>Informacion CFGS DAW</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto rem assumenda excepturi nulla eum. Est consectetur, accusantium recusandae amet eaque ducimus, culpa a praesentium, saepe deleniti eos iste quas minima.</p>
+            </article>
+            <article>
+                <h3>27 de Febrero 2023</h3>
+                <h4>Informacion CFGS DAW</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto rem assumenda excepturi nulla eum. Est consectetur, accusantium recusandae amet eaque ducimus, culpa a praesentium, saepe deleniti eos iste quas minima.</p>
+            </article>
+            <article>
+                <h3>27 de Febrero 2023</h3>
+                <h4>Informacion CFGS DAW</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto rem assumenda excepturi nulla eum. Est consectetur, accusantium recusandae amet eaque ducimus, culpa a praesentium, saepe deleniti eos iste quas minima.</p>
+            </article>
+        </section>
+    </div>
+    <script>
+        /*Icono del menu. Vamos a darle funcionalidad para hacer que se oculte o aparezca según el tamaño de la ventana*/
+        $(function() {
+            //Captura del evento para mostrar u ocultar el menu
+            $(".icon").click(function() {
+                $(".menu_item").toggle();
+            });
+            $(window).resize(function() {
+                var anchura = $(this).width();
+                if (anchura > 576) {
+                    $(".menu_item").show();
+                }
+            });
+        });
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    /* con el box-sizing: box-sizing: ; lo que haces lo mismo que el content pero de mas tamaño */
+    /* box-sizing: content-box; */
+    box-sizing: border-box;
+    font-size: 0px;
+}
+
+body {
+    background-image: url(../img/CAMPUS_VILLAVICIOSA1056x600px.original.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+ul {
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 20px;
+}
+
+nav li {
+    display: inline-block;
+    /* width: 10%; */
+    width: 20%;
+    /* margin: -2px; */
+    padding: 5px 10px;
+    background-color: #000;
+    border: 1px solid #000;
+    text-align: center;
+    color: khaki;
+}
+
+nav li:hover {
+    color: #000;
+    background-color: khaki;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas</title>
+</head>
+
+<body>
+    <!-- Una tabla se define como un conjunto de celdas dnd alojamos contenidos
+    Los elementos o etiquetas son:
+    -Etiqueta table: define la tabla
+    -tr: filas que va a tener la tabla
+    -td: celdas que va a tener la tabla
+   -->
+    <table align=center border="1px" height="300px">
+        <caption align="bottom">Listado de Profes</caption>
+        <!--primera linea-->
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido</th>
+            <th>Materia</th>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>Villanueva</td>
+            <td>Programacion y base de datos</td>
+        </tr>
+        <!--segunda linea-->
+        <tr>
+            <td>Raul</td>
+            <td>Rodriguez</td>
+            <td>LMGSE</td>
+        </tr>
+        <!--tercera linea-->
+        <tr>
+            <td>Raquel</td>
+            <td>Cérda</td>
+            <td>Entornos de Desarrollo</td>
+        </tr>
+        <!--cuarta linea-->
+        <tr>
+            <td>Jorge</td>
+            <td>Horcas</td>
+            <td>Sistemas Informaticos</td>
+        </tr>
+        <tr>
+            <td>Jose</td>
+            <td>Joaquin</td>
+            <td>Formacion y orientacion laboral</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Convinacion de celdas con rowspan y colspan
+    Rowspan: indica el numero de filas que ocupara una celda. Es decir, combinacion de filas.
+    Colspan: indica el numero de columnas que ocupa la celda. es deicr combinacion de columnas.
+    -->
+    <h1 align=center>Ejemplo Rowspan y Colspan</h1>
+    <table align=center border="1px">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+            <td rowspan="3">C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td rowspan="2">E</td>
+            <td>F</td>
+            <td rowspan="3">G</td>
+        </tr>
+        <tr>
+            <td>H</td>
+        </tr>
+        <tr>
+            <td colspan="2">I</td>
+            <td>J</td>
+        </tr>
+    </table>
+    <hr>
+    <table align=center border="1px" height="100px">
+        <tr>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+        </tr>
+        <tr>
+            <td>Mates</td>
+            <td align=center rowspan="2" colspan="3" height="40px">Dibujo</td>
+            <td rowspan="3">Historia</td>
+        </tr>
+        <tr>
+            <td rowspan="3">Fisica</td>
+        </tr>
+        <tr>
+            <td>Descanso</td>
+            <td>Descanso</td>
+            <td>Descanso</td>
+        </tr>
+        <tr>
+            <td>Gimnasia</td>
+            <td>Futbolin</td>
+            <td>Gimnasia</td>
+            <td>Mates</td>
+        </tr>
+    </table>
+</body>
+
+</html>

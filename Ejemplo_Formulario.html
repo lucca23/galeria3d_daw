@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form name="EjemploFormulario" action="mailto:luccamanfredotti@gmail.com" method="POST">
+        <fieldset>
+            <legend align="center">Registro Evento Intel vs AMD</legend>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                Nombre <input type="text" name="" id="">
+                <p>Apellidos <input type="text" name="" id=""></p>
+                <p>Telefono <input type="tel" name="" id=""></p>
+                <p>Direccion <input type="text" name="" id=""></p>
+                <p>Mail <input type="email" name="" id=""></p>
+                <p>Fecha Nacimiento <input type="date" name="" id=""></p>
+                <p> DNI <input type="text" name="" id="" maxlength="10"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Datos academicos</legend>
+                Numero expediente <input type="text" name="" id="" maxlength="8">
+                <p>Curso <input list="titulacion"></p>
+                <datalist id="titulacion">
+                        <option value="DAW">DAW</option>
+                        <option value="DAM">DAM</option>
+                        <option value="ASIR">ASIR</option>
+                        <option value="A3D">A3D</option>
+                    </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Genero</legend>
+                <input type="radio" name="genero" id="" value="H">Hombre
+                <input type="radio" name="genero" id="" value="M">Mujer
+                <input type="radio" name="genero" id="" value="O">Otro
+            </fieldset>
+            <fieldset>
+                <legend>Otra Informacion</legend>
+                Acreditacion <input type="file" name="archivo" id="" accept=".jpg, .png, .pdf">
+                <p>Password: <input type="password" name="" id="" maxlength="10" minlength="4"></p>
+            </fieldset>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </fieldset>
+    </form>
+</body>
+
+</html>

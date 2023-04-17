@@ -1,0 +1,9 @@
+.static {
+    border-style: solid;
+    border-color: blue;
+    position: static;
+}
+
+.pruebas {
+    border: 1px solid red;
+}

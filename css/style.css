@@ -1,0 +1,16 @@
+body {
+    background-color: aquamarine;
+    text-align: center;
+    font-family: "Comic Sans MS";
+}
+
+h1 {
+    /* Esto es un comentario en CSS*/
+    color: red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+p {
+    font-size: 22px;
+    color: tomato;
+}

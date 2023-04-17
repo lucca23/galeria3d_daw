@@ -1,0 +1,26 @@
+.pok {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.fuego {
+    background-color: darkorange;
+    color: yellow;
+}
+
+.planta {
+    background-color: rgb(31, 226, 129);
+    color: rgb(2, 95, 22);
+}
+
+.rayo {
+    background-color: rgb(255, 251, 0);
+    color: rgb(0, 0, 0);
+}
+
+.agua {
+    background-color: rgb(20, 183, 233);
+    color: rgb(4, 23, 134);
+}

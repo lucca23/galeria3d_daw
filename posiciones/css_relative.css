@@ -1,0 +1,19 @@
+.relative1 {
+    border-style: solid;
+    position: relative;
+}
+
+.relative2 {
+    border-style: solid;
+    position: relative;
+    top: -20px;
+    left: 15%;
+    background-color: red;
+    width: 500px;
+}
+
+.pruebas {
+    position: relative;
+    top: -20px;
+    border: 1px solid blue;
+}

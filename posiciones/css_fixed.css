@@ -1,0 +1,28 @@
+.fixed {
+    position: fixed;
+    border-style: solid;
+    border-color: blue;
+    bottom: 0px;
+    right: 0px;
+    width: 200px;
+    color: white;
+    background-color: rebeccapurple;
+}
+
+.relative {
+    position: relative;
+    border-style: solid;
+    border-color: chartreuse;
+    width: 600px;
+    height: 400px;
+}
+
+.absolute {
+    position: absolute;
+    border-style: solid;
+    border-color: red;
+    top: 120px;
+    right: 0px;
+    width: 300px;
+    height: 200px;
+}
